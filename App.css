@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #f5f9ff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.header {
+  background: #4cafef;
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #4cafef;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2c8ed6;
+}
+
+.chatbox {
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 120px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  text-align: left;
+  
+}
